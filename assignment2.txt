@@ -1,0 +1,40 @@
+name1 =str(input('name1:'))
+name2 =str(input('name2:'))
+love='love'
+true='true'
+m=0
+v=0
+c=0
+w=0
+f=0
+g=0
+score=0
+for i in love:
+ for j in name1:
+  if i==j:
+      m=m+1
+      
+ for n in name2:
+   if i==n:
+      v=v+1
+f=m+v     
+print("love:",f)
+f=m+v
+for d in true:
+  for q in name1:
+    if q==d:
+      c=c+1
+  for e in name2:
+    if e==d:
+      w=w+1
+g=c+w
+print("true:",g)
+score=str(g)+str(f)
+print(score)
+score=int(score)
+if score <= 10 or score>=90:
+    print("Your score is", score ," you go together like coke and mentos.")
+elif score <= 40 and score>=50:
+    print("Your score is",score ,"score you are alright together.")
+else:
+  print("you are score is ",score)
